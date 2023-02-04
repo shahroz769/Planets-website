@@ -237,3 +237,25 @@ h1:hover{
         gap: 5rem;
         }
   }
+  @media only screen and (max-width: 550px) {
+    #p1{
+        height: auto;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .mainimage{
+        width: 15.625rem;
+    }
+    .main {
+        gap: 3rem;
+    }
+    h1 {
+        font-size: 3.5rem;
+    }
+    .rect {
+        width: 16rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+  }

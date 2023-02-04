@@ -6,17 +6,23 @@
 }
 body{
     background-color: #070724;
-    background-image: url(./assets/dots.svg);
+    background-image: url(images/dots.svg);
 }
 h1{
     font-family: 'Antonio', sans-serif;
     font-size: 5rem;
     line-height: 6.4375rem;
 }
+#p1{
+    height: 9.375rem;
+}
 .brand{
     font-family: 'Antonio';
     font-size: 1.75rem;
     color: #FFFFFF;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 .navbar-nav{
     gap: 2rem;
@@ -100,6 +106,9 @@ button:hover {
     background-color: #38384F;
 }
 button:active {
+    background-color: #D83A34;
+}
+button:focus{
     background-color: #D83A34;
 }
 .box{

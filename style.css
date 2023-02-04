@@ -105,13 +105,20 @@ button:active {
 .box{
     display: flex;
 }
-.btn1{
-    background-color: #D83A34;
-}
 .rect{
     min-width: 15.9375rem;
     border: 1px solid #38384F;
     padding: 1.25rem;
+}
+.rect:hover{
+    color: #D83A34;
+    border-color: #D83A34;
+}
+.linkhover:hover{
+    color: #D83A34;
+}
+h1:hover{
+    color: #D83A34;
 }
 .footer{
     display: flex;
@@ -131,7 +138,7 @@ button:active {
 .right{
     width: 18rem;
 }
-img{
+.mainimage{
     width: 30rem;
 }
 @media only screen and (max-width: 1147px) {
@@ -169,12 +176,12 @@ img{
     }
   }
   @media only screen and (max-width: 900px) {
-    img {
+    .mainimage {
     width: 25rem;
     }
   }
   @media only screen and (max-width: 700px) {
-    img {
+    .mainimage {
     width: 20rem;
     }
   }

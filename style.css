@@ -133,7 +133,7 @@ h1:hover{
     display: flex;
     justify-content: center;
     gap: 2rem;
-    margin: 3rem 9.375rem;
+    margin: 3rem 2rem;
     flex-wrap: wrap;
 }
 .main{
@@ -150,22 +150,44 @@ h1:hover{
 .mainimage{
     width: 30rem;
 }
-@media only screen and (max-width: 1147px) {
-    .right {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    gap: 5rem;
-    align-items: center;
+@media only screen and (max-width: 1179px) {
+    .main{
+        flex-direction: column;
+        width: 51.875rem;
+        margin: 3rem auto;
     }
+    .right {
+        display: flex;
+        width: 100%;
+        gap: 5rem;
+        justify-content: center;
+        align-items: center;
+        }
     .planet{
-        width: 20rem;
+            width: 80rem;
     }
     .button{
-        width: 20rem;
+        width: 80rem;
     }
-  }
+    #p1{
+        height: 7.8125rem;
+    }
+    .footer{
+        margin-top: -1rem;
+    }
+}
   @media only screen and (max-width: 845px) {
+    .container-fluid{
+        flex-direction: column;
+        gap: .5rem;
+    }
+    .navbar-nav{
+        gap: 1.5rem;
+    }
+    .main{
+        width: auto;
+        margin: 3rem auto;
+    }
     .right {
     display: flex;
     flex-direction: column;
@@ -175,10 +197,16 @@ h1:hover{
     align-items: center;
     }
     .planet{
-        width: 20rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
     }
     .button{
         width: 20rem;
+    }
+    #p1{
+        height: 4.6875rem;
     }
     .rect{
         width: 20rem;
@@ -194,8 +222,18 @@ h1:hover{
     width: 20rem;
     }
   }
+  @media only screen and (max-width: 575px) {
+    .container-fluid{
+        flex-direction: row;
+    }
+  }
   @media only screen and (max-width: 1415px) {
     .main {
-    gap: 3rem;
+    gap: 10rem;
     }
+  }
+  @media only screen and (max-width: 1227px) {
+    .main {
+        gap: 5rem;
+        }
   }

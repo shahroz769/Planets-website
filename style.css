@@ -35,7 +35,7 @@ h1{
     letter-spacing: 0.0625rem;
 }
 .navbar{
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 0.5rem;
     background-color: #070724 !important;
 }
 p{
@@ -66,7 +66,7 @@ a{
     letter-spacing: 0.1625rem;
     color: #FFFFFF;
 }
-span{
+.right span{
     color: #838391;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -89,7 +89,14 @@ h4{
     -ms-user-select: none;
     user-select: none;
 }
+.fa-solid{
+    font-size: 1rem;
+    padding: 0 0.7rem;
+    color: #838391;
+}
 .navbar-toggler{
+    display: flex;
+    padding: 0.5rem 0rem;
     background-color: #FFFFFF;
 }
 .button{
@@ -108,7 +115,7 @@ button{
     display: flex;
 }
 .rect{
-    min-width: 15.9375rem;
+    min-width: 15rem;
     border: 1px solid #38384F;
     padding: 1.25rem;
 }
@@ -378,6 +385,11 @@ h1{
     }
     .navbar-nav{
         gap: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid #838391;
+        padding-top: 0.75rem;
     }
     .main{
         width: auto;
@@ -388,7 +400,7 @@ h1{
     }
     .right {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     width: 100%;
     justify-content: space-between;
     gap: 1rem;
@@ -476,3 +488,38 @@ h1{
         height: 9.375rem;
     }
   }
+  @media screen and (min-device-width: 736px) and (max-device-width: 892px) { 
+    .rect {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .rect h4, .rect h2{
+        margin: 0;
+        line-height: normal;
+    }
+    .rect h4{
+        font-size: 0.75rem;
+    }
+    .rect h2{
+        font-size: 2rem;
+    }
+}
+@media screen and (min-device-width: 892px) and (max-device-width: 1119px) { 
+    .rect {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .rect h4, .rect h2{
+        margin: 0 0.3rem;
+        line-height: normal;
+        min-width: 10rem;
+    }
+    .rect h4{
+        font-size: 0.75rem;
+    }
+    .rect h2{
+        font-size: 2rem;
+    }
+}

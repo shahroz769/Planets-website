@@ -400,7 +400,7 @@ h1{
     }
     .right {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     width: 100%;
     justify-content: space-between;
     gap: 1rem;

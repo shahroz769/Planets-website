@@ -450,6 +450,12 @@ h1{
     .container-fluid{
         flex-direction: row;
     }
+    .navbar-nav a{
+        font-size: 0.875rem;
+        border-bottom: 1px solid #38384F;
+        width: 90%;
+        text-align: center;
+    }
   }
   @media only screen and (max-width: 1415px) {
     .main {

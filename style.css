@@ -27,10 +27,7 @@ h1{
 .navbar-nav{
     gap: 2rem;
 }
-.navbar-nav img{
-    display: none;
-}
-.navbar-nav span{
+.navbar-nav a{
     font-family: 'League Spartan', sans-serif;
     font-weight: 700;
     font-size: 0.75rem;
@@ -454,23 +451,15 @@ h1{
     .container-fluid{
         flex-direction: row;
     }
-    .navbar-nav img{
-        display: inline;
-    }
     .navbar-nav a{
         font-size: 0.875rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 1em;
-    }
-    .navbar-nav span{
-        width: 60px;
+        width: 90%;
+        text-align: center;
     }
     .navbar {
         background-image: url(images/dots.svg);
     }
-  }
+    }
   @media only screen and (max-width: 1415px) {
     .main {
     gap: 5rem;

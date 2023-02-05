@@ -34,9 +34,6 @@ h1{
     color: #838391;
     letter-spacing: 0.0625rem;
 }
-.navbar-nav a:hover{
-    color: #FFFFFF;
-}
 .navbar{
     padding: 0.5rem 2rem;
     background-color: #070724 !important;
@@ -138,6 +135,12 @@ button{
 h1{
     color: #D83A34;
 }
+.nav_jupiter:focus{
+    color: #D83A34;
+}
+.nav_jupiter:hover{
+    color: #D83A34;
+}
 /* ------------------------------------------------VENUS-----COLORS------------------------------------------------ */
 .button_venus button:hover {
     background-color: #38384F;
@@ -156,6 +159,12 @@ h1{
     color: #EDA249;
 }
 .linkhover_venus:hover{
+    color: #EDA249;
+}
+.nav_venus:focus{
+    color: #EDA249;
+}
+.nav_venus:hover{
     color: #EDA249;
 }
 /* ------------------------------------------------EARTH-----COLORS------------------------------------------------ */
@@ -178,6 +187,12 @@ h1{
 .linkhover_earth:hover{
     color: #6D2ED5;
 }
+.nav_earth:focus{
+    color: #6D2ED5;
+}
+.nav_earth:hover{
+    color: #6D2ED5;
+}
 /* ------------------------------------------------MARS-----COLORS------------------------------------------------ */
 .button_mars button:hover {
     background-color: #38384F;
@@ -196,6 +211,12 @@ h1{
     color: #D14C32;
 }
 .linkhover_mars:hover{
+    color: #D14C32;
+}
+.nav_mars:focus{
+    color: #D14C32;
+}
+.nav_mars:hover{
     color: #D14C32;
 }
 /* ------------------------------------------------MERCURY-----COLORS------------------------------------------------ */
@@ -218,6 +239,12 @@ h1{
 .linkhover_mercury:hover{
     color: #419EBB;
 }
+.nav_mercury:focus{
+    color: #419EBB;
+}
+.nav_mercury:hover{
+    color: #419EBB;
+}
 /* ------------------------------------------------SATURN-----COLORS------------------------------------------------ */
 .button_saturn button:hover {
     background-color: #38384F;
@@ -236,6 +263,12 @@ h1{
     color: #CD5120;
 }
 .linkhover_saturn:hover{
+    color: #CD5120;
+}
+.nav_saturn:focus{
+    color: #CD5120;
+}
+.nav_saturn:hover{
     color: #CD5120;
 }
 /* ------------------------------------------------URANUS-----COLORS------------------------------------------------ */
@@ -258,6 +291,12 @@ h1{
 .linkhover_uranus:hover{
     color: #1EC1A2;
 }
+.nav_uranus:focus{
+    color: #1EC1A2;
+}
+.nav_uranus:hover{
+    color: #1EC1A2;
+}
 /* ------------------------------------------------NEPTUNE-----COLORS------------------------------------------------ */
 .button_neptune button:hover {
     background-color: #38384F;
@@ -278,6 +317,13 @@ h1{
 .linkhover_neptune:hover{
     color: #2D68F0;
 }
+.nav_neptune:focus{
+    color: #2D68F0;
+}
+.nav_neptune:hover{
+    color: #2D68F0;
+}
+/* ------------------------------------------------THE-----END------------------------------------------------ */
 .footer{
     display: flex;
     justify-content: center;

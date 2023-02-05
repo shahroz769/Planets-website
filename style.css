@@ -491,6 +491,11 @@ h1{
         height: 7.8125rem;
     }
   }
+  @media only screen and (max-width: 478px) {
+    #p1{
+        height: 9.375rem;
+    }
+  }
   @media only screen and (max-width: 418px) {
     #p1{
         height: 10.9375rem;

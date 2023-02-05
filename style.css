@@ -107,15 +107,6 @@ button{
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
-button:hover {
-    background-color: #38384F;
-}
-button:active {
-    background-color: #D83A34;
-}
-button:focus{
-    background-color: #D83A34;
-}
 .box{
     display: flex;
 }
@@ -124,6 +115,19 @@ button:focus{
     border: 1px solid #38384F;
     padding: 1.25rem;
 }
+/* ------------------------------------------------JUPITER-----COLORS------------------------------------------------ */
+.button_jupiter button:hover {
+    background-color: #38384F;
+}
+.button_jupiter button:active {
+    background-color: #D83A34;
+}
+.button_jupiter button:focus{
+    background-color: #D83A34;
+}
+.button_jupiter button:focus{
+    background-color: #D83A34;
+}
 .rect:hover{
     color: #D83A34;
     border-color: #D83A34;
@@ -131,8 +135,148 @@ button:focus{
 .linkhover:hover{
     color: #D83A34;
 }
-h1:hover{
+h1{
     color: #D83A34;
+}
+/* ------------------------------------------------VENUS-----COLORS------------------------------------------------ */
+.button_venus button:hover {
+    background-color: #38384F;
+}
+.button_venus button:active {
+    background-color: #EDA249;
+}
+.button_venus button:focus{
+    background-color: #EDA249;
+}
+.footer_venus .rect:hover{
+    color: #EDA249;
+    border-color: #EDA249;
+}
+.venus_h1{
+    color: #EDA249;
+}
+.linkhover_venus:hover{
+    color: #EDA249;
+}
+/* ------------------------------------------------EARTH-----COLORS------------------------------------------------ */
+.button_earth button:hover {
+    background-color: #38384F;
+}
+.button_earth button:active {
+    background-color: #6D2ED5;
+}
+.button_earth button:focus{
+    background-color: #6D2ED5;
+}
+.footer_earth .rect:hover{
+    color: #6D2ED5;
+    border-color: #6D2ED5;
+}
+.earth_h1{
+    color: #6D2ED5;
+}
+.linkhover_earth:hover{
+    color: #6D2ED5;
+}
+/* ------------------------------------------------MARS-----COLORS------------------------------------------------ */
+.button_mars button:hover {
+    background-color: #38384F;
+}
+.button_mars button:active {
+    background-color: #D14C32;
+}
+.button_mars button:focus{
+    background-color: #D14C32;
+}
+.footer_mars .rect:hover{
+    color: #D14C32;
+    border-color: #D14C32;
+}
+.mars_h1{
+    color: #D14C32;
+}
+.linkhover_mars:hover{
+    color: #D14C32;
+}
+/* ------------------------------------------------MERCURY-----COLORS------------------------------------------------ */
+.button_mercury button:hover {
+    background-color: #38384F;
+}
+.button_mercury button:active {
+    background-color: #419EBB;
+}
+.button_mercury button:focus{
+    background-color: #419EBB;
+}
+.footer_mercury .rect:hover{
+    color: #419EBB;
+    border-color: #419EBB;
+}
+.mercury_h1{
+    color: #419EBB;
+}
+.linkhover_mercury:hover{
+    color: #419EBB;
+}
+/* ------------------------------------------------SATURN-----COLORS------------------------------------------------ */
+.button_saturn button:hover {
+    background-color: #38384F;
+}
+.button_saturn button:active {
+    background-color: #CD5120;
+}
+.button_saturn button:focus{
+    background-color: #CD5120;
+}
+.footer_saturn .rect:hover{
+    color: #CD5120;
+    border-color: #CD5120;
+}
+.saturn_h1{
+    color: #CD5120;
+}
+.linkhover_saturn:hover{
+    color: #CD5120;
+}
+/* ------------------------------------------------URANUS-----COLORS------------------------------------------------ */
+.button_uranus button:hover {
+    background-color: #38384F;
+}
+.button_uranus button:active {
+    background-color: #1EC1A2;
+}
+.button_uranus button:focus{
+    background-color: #1EC1A2;
+}
+.footer_uranus .rect:hover{
+    color: #1EC1A2;
+    border-color: #1EC1A2;
+}
+.uranus_h1{
+    color: #1EC1A2;
+}
+.linkhover_uranus:hover{
+    color: #1EC1A2;
+}
+/* ------------------------------------------------NEPTUNE-----COLORS------------------------------------------------ */
+.button_neptune button:hover {
+    background-color: #38384F;
+}
+.button_neptune button:active {
+    background-color: #2D68F0;
+}
+.button_neptune button:focus{
+    background-color: #2D68F0;
+}
+.footer_neptune .rect:hover{
+    color: #2D68F0;
+    border-color: #2D68F0;
+}
+.neptune_h1{
+    color: #2D68F0;
+}
+.linkhover_neptune:hover{
+    color: #2D68F0;
 }
 .footer{
     display: flex;

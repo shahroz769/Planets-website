@@ -2,8 +2,9 @@ let img = document.querySelector('img');
 let btn1 = document.querySelector('#btn1');
 let btn2 = document.querySelector('#btn2');
 let btn3 = document.querySelector('#btn3');
+
 btn1.addEventListener('click', () => {
-    img.src = 'images/jupiter.svg';
+    img.src = 'images/jupiter1.svg';
 if(btn1.onclick="changeText();") {
      document.getElementById('p1').innerHTML = "Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass two and a half times that of all the other planets in the Solar System combined, but less than one-thousandth the mass of the Sun.";
     }

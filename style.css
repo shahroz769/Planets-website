@@ -27,7 +27,10 @@ h1{
 .navbar-nav{
     gap: 2rem;
 }
-.navbar-nav a{
+.navbar-nav img{
+    display: none;
+}
+.navbar-nav span{
     font-family: 'League Spartan', sans-serif;
     font-weight: 700;
     font-size: 0.75rem;
@@ -145,9 +148,6 @@ button{
 h1{
     color: #D83A34;
 }
-.nav_jupiter:focus{
-    color: #D83A34;
-}
 .nav_jupiter:hover{
     color: #D83A34;
 }
@@ -169,9 +169,6 @@ h1{
     color: #EDA249;
 }
 .linkhover_venus:hover{
-    color: #EDA249;
-}
-.nav_venus:focus{
     color: #EDA249;
 }
 .nav_venus:hover{
@@ -197,9 +194,6 @@ h1{
 .linkhover_earth:hover{
     color: #6D2ED5;
 }
-.nav_earth:focus{
-    color: #6D2ED5;
-}
 .nav_earth:hover{
     color: #6D2ED5;
 }
@@ -221,9 +215,6 @@ h1{
     color: #D14C32;
 }
 .linkhover_mars:hover{
-    color: #D14C32;
-}
-.nav_mars:focus{
     color: #D14C32;
 }
 .nav_mars:hover{
@@ -249,9 +240,6 @@ h1{
 .linkhover_mercury:hover{
     color: #419EBB;
 }
-.nav_mercury:focus{
-    color: #419EBB;
-}
 .nav_mercury:hover{
     color: #419EBB;
 }
@@ -273,9 +261,6 @@ h1{
     color: #CD5120;
 }
 .linkhover_saturn:hover{
-    color: #CD5120;
-}
-.nav_saturn:focus{
     color: #CD5120;
 }
 .nav_saturn:hover{
@@ -301,9 +286,6 @@ h1{
 .linkhover_uranus:hover{
     color: #1EC1A2;
 }
-.nav_uranus:focus{
-    color: #1EC1A2;
-}
 .nav_uranus:hover{
     color: #1EC1A2;
 }
@@ -325,9 +307,6 @@ h1{
     color: #2D68F0;
 }
 .linkhover_neptune:hover{
-    color: #2D68F0;
-}
-.nav_neptune:focus{
     color: #2D68F0;
 }
 .nav_neptune:hover{
@@ -451,14 +430,23 @@ h1{
     .container-fluid{
         flex-direction: row;
     }
+    .navbar-nav img{
+        display: inline;
+    }
     .navbar-nav a{
         font-size: 0.875rem;
-        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+    }
+    .navbar-nav span{
+        width: 60px;
     }
     .navbar {
         background-image: url(images/dots.svg);
     }
-    }
+  }
   @media only screen and (max-width: 1415px) {
     .main {
     gap: 5rem;

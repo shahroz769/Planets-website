@@ -94,15 +94,18 @@ h4{
     user-select: none;
 }
 .fa-solid{
-    font-size: 1rem;
-    padding: 0 0.7rem;
+    font-size: 1.5rem;
+    padding: 0;
     color: #FFFFFF;
 }
 .navbar-toggler{
     display: flex;
-    padding: 0.5rem 0.25rem;
+    padding: 0;
     align-items: center;
     justify-content: center;
+    background-color: transparent;
+    color: transparent;
+    border: none;
 }
 .button{
     display: flex;
@@ -150,10 +153,6 @@ h1{
 .nav_jupiter:hover{
     color: #D83A34;
 }
-.navbar-toggler-jupiter{
-    background-color: #D83A34;
-    color: transparent;
-}
 /* ------------------------------------------------VENUS-----COLORS------------------------------------------------ */
 .button_venus button:hover {
     background-color: #38384F;
@@ -176,10 +175,6 @@ h1{
 }
 .nav_venus:hover{
     color: #EDA249;
-}
-.navbar-toggler-venus{
-    background-color: #EDA249;
-    color: transparent;
 }
 /* ------------------------------------------------EARTH-----COLORS------------------------------------------------ */
 .button_earth button:hover {
@@ -204,10 +199,6 @@ h1{
 .nav_earth:hover{
     color: #6D2ED5;
 }
-.navbar-toggler-earth{
-    background-color: #6D2ED5;
-    color: transparent;
-}
 /* ------------------------------------------------MARS-----COLORS------------------------------------------------ */
 .button_mars button:hover {
     background-color: #38384F;
@@ -230,10 +221,6 @@ h1{
 }
 .nav_mars:hover{
     color: #D14C32;
-}
-.navbar-toggler-mars{
-    background-color: #D14C32;
-    color: transparent;
 }
 /* ------------------------------------------------MERCURY-----COLORS------------------------------------------------ */
 .button_mercury button:hover {
@@ -258,10 +245,6 @@ h1{
 .nav_mercury:hover{
     color: #419EBB;
 }
-.navbar-toggler-mercury{
-    background-color: #419EBB;
-    color: transparent;
-}
 /* ------------------------------------------------SATURN-----COLORS------------------------------------------------ */
 .button_saturn button:hover {
     background-color: #38384F;
@@ -284,10 +267,6 @@ h1{
 }
 .nav_saturn:hover{
     color: #CD5120;
-}
-.navbar-toggler-saturn{
-    background-color: #CD5120;
-    color: transparent;
 }
 /* ------------------------------------------------URANUS-----COLORS------------------------------------------------ */
 .button_uranus button:hover {
@@ -312,10 +291,6 @@ h1{
 .nav_uranus:hover{
     color: #1EC1A2;
 }
-.navbar-toggler-uranus{
-    background-color: #1EC1A2;
-    color: transparent;
-}
 /* ------------------------------------------------NEPTUNE-----COLORS------------------------------------------------ */
 .button_neptune button:hover {
     background-color: #38384F;
@@ -338,10 +313,6 @@ h1{
 }
 .nav_neptune:hover{
     color: #2D68F0;
-}
-.navbar-toggler-neptune{
-    background-color: #2D68F0;
-    color: transparent;
 }
 /* ------------------------------------------------THE-----END------------------------------------------------ */
 .footer{

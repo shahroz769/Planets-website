@@ -37,6 +37,7 @@ h1{
 .navbar{
     padding: 0.5rem 0.5rem;
     background-color: #070724 !important;
+    border-bottom: 1px solid #38384F;
 }
 p{
     font-family: 'League Spartan', sans-serif;
@@ -390,7 +391,7 @@ h1{
         display: flex;
         justify-content: center;
         align-items: center;
-        border-top: 1px solid #838391;
+        border-top: 1px solid #38384F;
         padding-top: 0.75rem;
     }
     .main{
@@ -452,7 +453,6 @@ h1{
     }
     .navbar-nav a{
         font-size: 0.875rem;
-        border-bottom: 1px solid #38384F;
         width: 90%;
         text-align: center;
     }

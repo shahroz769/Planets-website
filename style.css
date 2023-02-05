@@ -493,7 +493,7 @@ h1{
   }
   @media only screen and (max-width: 418px) {
     #p1{
-        height: 9.375rem;
+        height: 10.9375rem;
     }
   }
   @media screen and (min-device-width: 736px) and (max-device-width: 892px) { 

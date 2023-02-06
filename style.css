@@ -4,6 +4,9 @@
     margin: 0;
     color: #FFFFFF;
 }
+::-webkit-scrollbar {
+    display: none;
+}
 body{
     background-color: #070724;
     background-image: url(images/dots.svg);
@@ -47,6 +50,7 @@ p{
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5625rem;
+    cursor: default;
 }
 a{
     text-decoration: none;
@@ -126,6 +130,7 @@ button{
     min-width: 15rem;
     border: 1px solid #38384F;
     padding: 1.25rem;
+    cursor: default;
 }
 .fa-angle-right{
     display: none;

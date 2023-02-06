@@ -516,6 +516,35 @@ h1{
         color: #838391;
     }
   }
+  @media only screen and (max-width: 500px) {
+    .mobile_btn button {
+        font-size: 0.65rem;
+    }
+  }
+  @media only screen and (max-width: 452px) {
+    .mobile_btn button {
+        font-size: 0.55rem;
+    }
+  }
+  @media only screen and (max-width: 404px) {
+        .mobile_btn button {
+            width: 35%;
+        }
+    .mobile_btn button:nth-child(1) {
+        width: 30%;
+    }
+}
+@media only screen and (max-width: 384px) {
+    .mobile_btn button:nth-child(1) {
+        width: 25%;
+    }
+    .mobile_btn button:nth-child(2) {
+        width: 40%;
+    }
+    .mobile_btn button:nth-child(3) {
+        width: 35%;
+    }
+}
   @media only screen and (max-width: 735px) {
     .rect {
         display: flex;

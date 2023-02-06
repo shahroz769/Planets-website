@@ -127,6 +127,9 @@ button{
     border: 1px solid #38384F;
     padding: 1.25rem;
 }
+.fa-angle-right{
+    display: none;
+}
 /* ------------------------------------------------JUPITER-----COLORS------------------------------------------------ */
 .button_jupiter button:hover {
     background-color: #38384F;
@@ -480,7 +483,7 @@ h1{
     .container-fluid{
         flex-direction: row;
     }
-    .navbar-nav img{
+    .fa-angle-right, .navbar-nav img{
         display: inline;
     }
     .navbar-nav a{
@@ -492,7 +495,7 @@ h1{
         margin-left: 1rem;
     }
     .navbar-nav span{
-        width: 60px;
+        width: 100%;
     }
     .navbar {
         background-image: url(images/dots.svg);
@@ -503,6 +506,15 @@ h1{
     }
     p{
         font-size: 1rem;
+    }
+    .navbar-nav a {
+        border: none;
+        width: 100%;
+        padding-right: 2rem;
+    }
+    .fa-angle-right{
+        font-size: 1rem;
+        color: #838391;
     }
   }
   @media only screen and (max-width: 1415px) {

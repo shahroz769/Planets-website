@@ -123,6 +123,9 @@ button{
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
+.mobile_box:hover{
+    color: #FFFFFF;
+}
 .box{
     display: flex;
 }
@@ -142,10 +145,7 @@ button{
 .button_jupiter button:active {
     background-color: #D83A34;
 }
-.button_jupiter button:focus{
-    background-color: #D83A34;
-}
-.button_jupiter button:focus{
+.keep_jupiter{
     background-color: #D83A34;
 }
 .rect:hover{
@@ -167,6 +167,10 @@ h1{
 .a_jupiter{
     border-top: 2px solid #D83A34;
 }
+.keep_mobile_jupiter{
+    border-bottom: 0.25rem solid #D83A34 !important;
+    color: #FFFFFF !important;
+}
 /* ------------------------------------------------VENUS-----COLORS------------------------------------------------ */
 .button_venus button:hover {
     background-color: #38384F;
@@ -174,7 +178,7 @@ h1{
 .button_venus button:active {
     background-color: #EDA249;
 }
-.button_venus button:focus{
+.keep_venus{
     background-color: #EDA249;
 }
 .footer_venus .rect:hover{
@@ -196,6 +200,10 @@ h1{
 .a_venus{
     border-top: 2px solid #EDA249;
 }
+.keep_mobile_venus{
+    border-bottom: 0.25rem solid #EDA249 !important;
+    color: #FFFFFF !important;
+}
 /* ------------------------------------------------EARTH-----COLORS------------------------------------------------ */
 .button_earth button:hover {
     background-color: #38384F;
@@ -203,7 +211,7 @@ h1{
 .button_earth button:active {
     background-color: #6D2ED5;
 }
-.button_earth button:focus{
+.keep_earth{
     background-color: #6D2ED5;
 }
 .footer_earth .rect:hover{
@@ -225,6 +233,10 @@ h1{
 .a_earth{
     border-top: 2px solid #6D2ED5;
 }
+.keep_mobile_earth{
+    border-bottom: 0.25rem solid #6D2ED5 !important;
+    color: #FFFFFF !important;
+}
 /* ------------------------------------------------MARS-----COLORS------------------------------------------------ */
 .button_mars button:hover {
     background-color: #38384F;
@@ -232,7 +244,7 @@ h1{
 .button_mars button:active {
     background-color: #D14C32;
 }
-.button_mars button:focus{
+.keep_mars{
     background-color: #D14C32;
 }
 .footer_mars .rect:hover{
@@ -254,6 +266,10 @@ h1{
 .a_mars{
     border-top: 2px solid #D14C32;
 }
+.keep_mobile_mars{
+    border-bottom: 0.25rem solid #D14C32 !important;
+    color: #FFFFFF !important;
+}
 /* ------------------------------------------------MERCURY-----COLORS------------------------------------------------ */
 .button_mercury button:hover {
     background-color: #38384F;
@@ -261,7 +277,7 @@ h1{
 .button_mercury button:active {
     background-color: #419EBB;
 }
-.button_mercury button:focus{
+.keep_mercury{
     background-color: #419EBB;
 }
 .footer_mercury .rect:hover{
@@ -283,6 +299,10 @@ h1{
 .a_mercury{
     border-top: 2px solid #419EBB;
 }
+.keep_mobile_mercury{
+    border-bottom: 0.25rem solid #419EBB !important;
+    color: #FFFFFF !important;
+}
 /* ------------------------------------------------SATURN-----COLORS------------------------------------------------ */
 .button_saturn button:hover {
     background-color: #38384F;
@@ -290,7 +310,7 @@ h1{
 .button_saturn button:active {
     background-color: #CD5120;
 }
-.button_saturn button:focus{
+.keep_saturn{
     background-color: #CD5120;
 }
 .footer_saturn .rect:hover{
@@ -312,6 +332,10 @@ h1{
 .a_saturn{
     border-top: 2px solid #CD5120;
 }
+.keep_mobile_saturn{
+    border-bottom: 0.25rem solid #CD5120 !important;
+    color: #FFFFFF !important;
+}
 /* ------------------------------------------------URANUS-----COLORS------------------------------------------------ */
 .button_uranus button:hover {
     background-color: #38384F;
@@ -319,7 +343,7 @@ h1{
 .button_uranus button:active {
     background-color: #1EC1A2;
 }
-.button_uranus button:focus{
+.keep_uranus{
     background-color: #1EC1A2;
 }
 .footer_uranus .rect:hover{
@@ -341,6 +365,10 @@ h1{
 .a_uranus{
     border-top: 2px solid #1EC1A2;
 }
+.keep_mobile_uranus{
+    border-bottom: 0.25rem solid #1EC1A2 !important;
+    color: #FFFFFF !important;
+}
 /* ------------------------------------------------NEPTUNE-----COLORS------------------------------------------------ */
 .button_neptune button:hover {
     background-color: #38384F;
@@ -348,7 +376,7 @@ h1{
 .button_neptune button:active {
     background-color: #2D68F0;
 }
-.button_neptune button:focus{
+.keep_neptune{
     background-color: #2D68F0;
 }
 .footer_neptune .rect:hover{
@@ -369,6 +397,10 @@ h1{
 }
 .a_neptune{
     border-top: 2px solid #2D68F0;
+}
+.keep_mobile_neptune{
+    border-bottom: 0.25rem solid #2D68F0 !important;
+    color: #FFFFFF !important;
 }
 /* ------------------------------------------------THE-----END------------------------------------------------ */
 .footer{
@@ -391,6 +423,9 @@ h1{
 }
 .mainimage{
     width: 30rem;
+}
+.mobile_btn{
+    display: none;
 }
 @media only screen and (max-width: 1179px) {
     .main{
@@ -460,6 +495,25 @@ h1{
     }
     .rect{
         width: 20rem;
+    }
+    .button{
+        display: none;
+    }
+    .mobile_btn{
+        display: inline-block;
+        display: flex;
+        width: 100%;
+        border-bottom: 1px solid #38384F;
+    }
+    .mobile_btn button {
+        width: calc(100%/3);
+        border: none;
+        font-family: 'League Spartan', sans-serif;
+        font-size: 0.75rem;
+        font-weight: 700;
+        line-height: 1.5625rem;
+        letter-spacing: 0.1625rem;
+        color: #838391;
     }
   }
   @media only screen and (max-width: 735px) {

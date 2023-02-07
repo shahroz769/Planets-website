@@ -139,7 +139,7 @@ button{
     display: none;
 }
 /* ------------------------------------------------JUPITER-----COLORS------------------------------------------------ */
-.button_jupiter button:hover {
+.button_jupiter button:hover:not(.keep_jupiter) {
     background-color: #38384F;
 }
 .button_jupiter button:active {
@@ -172,7 +172,7 @@ h1{
     color: #FFFFFF !important;
 }
 /* ------------------------------------------------VENUS-----COLORS------------------------------------------------ */
-.button_venus button:hover {
+.button_venus button:hover:not(.keep_venus) {
     background-color: #38384F;
 }
 .button_venus button:active {
@@ -205,7 +205,7 @@ h1{
     color: #FFFFFF !important;
 }
 /* ------------------------------------------------EARTH-----COLORS------------------------------------------------ */
-.button_earth button:hover {
+.button_earth button:hover:not(.keep_earth) {
     background-color: #38384F;
 }
 .button_earth button:active {
@@ -238,7 +238,7 @@ h1{
     color: #FFFFFF !important;
 }
 /* ------------------------------------------------MARS-----COLORS------------------------------------------------ */
-.button_mars button:hover {
+.button_mars button:hover:not(.keep_mars) {
     background-color: #38384F;
 }
 .button_mars button:active {
@@ -271,7 +271,7 @@ h1{
     color: #FFFFFF !important;
 }
 /* ------------------------------------------------MERCURY-----COLORS------------------------------------------------ */
-.button_mercury button:hover {
+.button_mercury button:hover:not(.keep_mercury) {
     background-color: #38384F;
 }
 .button_mercury button:active {
@@ -304,7 +304,7 @@ h1{
     color: #FFFFFF !important;
 }
 /* ------------------------------------------------SATURN-----COLORS------------------------------------------------ */
-.button_saturn button:hover {
+.button_saturn button:hover:not(.keep_saturn) {
     background-color: #38384F;
 }
 .button_saturn button:active {
@@ -337,7 +337,7 @@ h1{
     color: #FFFFFF !important;
 }
 /* ------------------------------------------------URANUS-----COLORS------------------------------------------------ */
-.button_uranus button:hover {
+.button_uranus button:hover:not(.keep_uranus) {
     background-color: #38384F;
 }
 .button_uranus button:active {
@@ -370,7 +370,7 @@ h1{
     color: #FFFFFF !important;
 }
 /* ------------------------------------------------NEPTUNE-----COLORS------------------------------------------------ */
-.button_neptune button:hover {
+.button_neptune button:hover:not(.keep_neptune) {
     background-color: #38384F;
 }
 .button_neptune button:active {

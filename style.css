@@ -144,9 +144,6 @@ button{
 .fa-angle-right{
     display: none;
 }
-.button .box {
-    background-image: url(images/background-stars.svg);
-}
 /* ------------------------------------------------JUPITER-----COLORS------------------------------------------------ */
 .button_jupiter button:hover:not(.keep_jupiter) {
     background-color: #38384F;
@@ -523,7 +520,6 @@ h1{
         line-height: 1.5625rem;
         letter-spacing: 0.1625rem;
         color: #838391;
-        background-image: url(images/background-stars.svg);
     }
   }
   @media only screen and (max-width: 500px) {

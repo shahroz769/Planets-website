@@ -126,6 +126,9 @@ button{
 .mobile_box:hover{
     color: #FFFFFF;
 }
+.mobile_box:active{
+    background-color: #38384F;
+}
 .box{
     display: flex;
 }

@@ -9,7 +9,10 @@
 }
 body{
     background-color: #070724;
-    background-image: url(images/dots.svg);
+    background-image: url(images/background-stars.svg);
+}
+.navbar{
+    background-image: url(images/background-stars.svg);
 }
 h1{
     font-family: 'Antonio', sans-serif;
@@ -140,6 +143,9 @@ button{
 }
 .fa-angle-right{
     display: none;
+}
+.button .box {
+    background-image: url(images/background-stars.svg);
 }
 /* ------------------------------------------------JUPITER-----COLORS------------------------------------------------ */
 .button_jupiter button:hover:not(.keep_jupiter) {
@@ -517,6 +523,7 @@ h1{
         line-height: 1.5625rem;
         letter-spacing: 0.1625rem;
         color: #838391;
+        background-image: url(images/background-stars.svg);
     }
   }
   @media only screen and (max-width: 500px) {
@@ -578,7 +585,7 @@ h1{
         width: 100%;
     }
     .navbar {
-        background-image: url(images/dots.svg);
+        background-image: url(images/background-stars.svg);
     }
     .navbar-nav span{
         font-size: 0.75rem;

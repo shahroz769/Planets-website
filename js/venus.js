@@ -20,7 +20,7 @@ if(btn2.onclick="changeText();") {
 btn3.addEventListener('click', () => {
     img.src = 'images/venus3.svg';
 if(btn3.onclick="changeText();") {
-    document.getElementById('p1').innerHTML = "The best known feature of Jupiter is the Great Red Spot, a persistent anticyclonic storm located 22° south of the equator. It is known to have existed since at least 1831, and possibly since 1665.";
+    document.getElementById('p1').innerHTML = "Much of the Venusian surface appears to have been shaped by volcanic activity. Venus has several times as many volcanoes as Earth, and it has 167 large volcanoes that are over 100 km (60 mi) across. The only volcanic complex of this size on Earth is the Big Island of Hawaii.";
     }
 })
 btnAll.forEach(btnKeep => {

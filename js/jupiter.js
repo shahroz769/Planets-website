@@ -6,10 +6,10 @@ const btnKeep = document.querySelector(".box");
 const btnAll = document.querySelectorAll(".box");
 
 btn1.addEventListener("click", () => {
-    if (img.src.includes("neptune1")) {
+    if (img.src.includes("jupiter1")) {
         return;
     } else {
-        if (!img.src.includes("neptune1")) {
+        if (!img.src.includes("jupiter1")) {
             gsap.fromTo(
                 "#javaimg",
                 { "clip-path": "circle(100.5% at 50% 100%)" },
@@ -21,7 +21,7 @@ btn1.addEventListener("click", () => {
             );
         }
         setTimeout(() => {
-            gsap.set(img, { attr: { src: "images/neptune1.svg" } });
+            gsap.set(img, { attr: { src: "images/jupiter1.svg" } });
             gsap.fromTo(
                 "#javaimg",
                 { "clip-path": "circle(0% at 50% 100%)" },
@@ -45,16 +45,16 @@ btn1.addEventListener("click", () => {
             });
             if ((btn1.onclick = "changeText();")) {
                 document.getElementById("p1").innerHTML =
-                    "Neptune is the eighth and farthest-known Solar planet from the Sun. In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet. It is 17 times the mass of Earth, more massive than its near-twin Uranus.";
+                    "Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass two and a half times that of all the other planets in the Solar System combined, but less than one-thousandth the mass of the Sun.";
             }
         }, 300);
     }
 });
 btn2.addEventListener("click", () => {
-    if (img.src.includes("neptune2")) {
+    if (img.src.includes("jupiter2")) {
         return;
     } else {
-        if (!img.src.includes("neptune2")) {
+        if (!img.src.includes("jupiter2")) {
             gsap.fromTo(
                 "#javaimg",
                 { "clip-path": "circle(100.5% at 50% 100%)" },
@@ -66,7 +66,7 @@ btn2.addEventListener("click", () => {
             );
         }
         setTimeout(() => {
-            gsap.set(img, { attr: { src: "images/neptune2.svg" } });
+            gsap.set(img, { attr: { src: "images/jupiter2.svg" } });
             gsap.fromTo(
                 "#javaimg",
                 { "clip-path": "circle(0% at 50% 100%)" },
@@ -79,7 +79,7 @@ btn2.addEventListener("click", () => {
         }, 999);
         if ((btn1.onclick = "changeText();")) {
             document.getElementById("p1").innerHTML =
-                "Neptune's internal structure resembles that of Uranus. Its atmosphere forms about 5% to 10% of its mass and extends perhaps 10% to 20% of the way towards the core. Increasing concentrations of methane, ammonia and water are found in the lower regions.";
+                "When the Juno arrived in 2016, it found that Jupiter has a very diffuse core that mixes into its mantle. A possible cause is an impact from a planet of about ten Earth masses a few million years after Jupiter's formation, which would have disrupted an originally solid Jovian core.";
         }
         gsap.fromTo(
             "#p1",
@@ -89,10 +89,10 @@ btn2.addEventListener("click", () => {
     }
 });
 btn3.addEventListener("click", () => {
-    if (img.src.includes("neptune3")) {
+    if (img.src.includes("jupiter3")) {
         return;
     } else {
-        if (!img.src.includes("neptune3")) {
+        if (!img.src.includes("jupiter3")) {
             gsap.fromTo(
                 "#javaimg",
                 { "clip-path": "circle(100.5% at 50% 100%)" },
@@ -104,7 +104,7 @@ btn3.addEventListener("click", () => {
             );
         }
         setTimeout(() => {
-            gsap.set(img, { attr: { src: "images/neptune3.svg" } });
+            gsap.set(img, { attr: { src: "images/jupiter3.svg" } });
             gsap.fromTo(
                 "#javaimg",
                 { "clip-path": "circle(0% at 50% 100%)" },
@@ -117,7 +117,7 @@ btn3.addEventListener("click", () => {
         }, 999);
         if ((btn1.onclick = "changeText();")) {
             document.getElementById("p1").innerHTML =
-                "Neptune's atmosphere is 80% hydrogen and 19% helium. A trace amount of methane is also present. Prominent absorption bands of methane exist at wavelengths above 600 nm, in the red and infrared portion of the spectrum.";
+                "The best known feature of Jupiter is the Great Red Spot, a persistent anticyclonic storm located 22° south of the equator. It is known to have existed since at least 1831, and possibly since 1665.";
         }
         gsap.fromTo(
             "#p1",
@@ -126,13 +126,12 @@ btn3.addEventListener("click", () => {
         );
     }
 });
-
 btnAll.forEach((btnKeep) => {
     btnKeep.addEventListener("click", () => {
         document
-            .querySelector(".keep_neptune")
-            ?.classList.remove("keep_neptune");
-        btnKeep.classList.add("keep_neptune");
+            .querySelector(".keep_jupiter")
+            ?.classList.remove("keep_jupiter");
+        btnKeep.classList.add("keep_jupiter");
     });
 });
 
@@ -146,42 +145,42 @@ const btnKeepMobile = document.querySelector(".mobile_box");
 const btnAllMobile = document.querySelectorAll(".mobile_box");
 
 btn11.addEventListener("click", () => {
-    imgMobile.src = "images/neptune1.svg";
+    imgMobile.src = "images/jupiter1.svg";
     if ((btn11.onclick = "changeText();")) {
         document.getElementById("p1").innerHTML =
-            "Neptune is the eighth and farthest-known Solar planet from the Sun. In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet. It is 17 times the mass of Earth, more massive than its near-twin Uranus.";
+            "Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass two and a half times that of all the other planets in the Solar System combined, but less than one-thousandth the mass of the Sun.";
     }
 });
 btn22.addEventListener("click", () => {
-    imgMobile.src = "images/neptune2.svg";
+    imgMobile.src = "images/jupiter2.svg";
     if ((btn22.onclick = "changeText();")) {
         document.getElementById("p1").innerHTML =
-            "Neptune's internal structure resembles that of Uranus. Its atmosphere forms about 5% to 10% of its mass and extends perhaps 10% to 20% of the way towards the core. Increasing concentrations of methane, ammonia and water are found in the lower regions.";
+            "When the Juno arrived in 2016, it found that Jupiter has a very diffuse core that mixes into its mantle. A possible cause is an impact from a planet of about ten Earth masses a few million years after Jupiter's formation, which would have disrupted an originally solid Jovian core.";
     }
 });
 btn33.addEventListener("click", () => {
-    imgMobile.src = "images/neptune3.svg";
+    imgMobile.src = "images/jupiter3.svg";
     if ((btn33.onclick = "changeText();")) {
         document.getElementById("p1").innerHTML =
-            "Neptune's atmosphere is 80% hydrogen and 19% helium. A trace amount of methane is also present. Prominent absorption bands of methane exist at wavelengths above 600 nm, in the red and infrared portion of the spectrum.";
+            "The best known feature of Jupiter is the Great Red Spot, a persistent anticyclonic storm located 22° south of the equator. It is known to have existed since at least 1831, and possibly since 1665.";
     }
 });
 btnAllMobile.forEach((btnKeepMobile) => {
     btnKeepMobile.addEventListener("click", () => {
         document
-            .querySelector(".keep_mobile_neptune")
-            ?.classList.remove("keep_mobile_neptune");
-        btnKeepMobile.classList.add("keep_mobile_neptune");
+            .querySelector(".keep_mobile_jupiter")
+            ?.classList.remove("keep_mobile_jupiter");
+        btnKeepMobile.classList.add("keep_mobile_jupiter");
     });
 });
-let neptune_h1 = new SplitType(".neptune_h1");
+let jupiter_h1 = new SplitType(".jupiter_h1");
 var tl = gsap.timeline({ defaults: { duration: 1 } });
 tl.to("#javaimg", {
     "clip-path": "circle(100.5% at 50% 100%)",
     duration: 1.25,
     ease: "power4.out",
 })
-    .to(".neptune_h1", { opacity: 1, duration: 0.001 }, "-=1.25")
+    .to(".jupiter_h1", { opacity: 1, duration: 0.001 }, "-=1.25")
     .to(
         ".char",
         { y: 0, stagger: 0.08, ease: "power4.inOut", duration: 1.5 },

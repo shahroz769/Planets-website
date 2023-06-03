@@ -9,13 +9,6 @@
     display: none;
 }
 
-.header,
-.navbar-nav a,
-.brand {
-    opacity: 0;
-    transform: translateY(-100%);
-}
-
 #javaimg {
     clip-path: circle(0% at 50% 100%);
 }
